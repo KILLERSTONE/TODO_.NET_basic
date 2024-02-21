@@ -1,0 +1,18 @@
+﻿GET http://localhost:5246/todos
+###
+
+POST http://localhost:5246/todos
+Content-Type: application/json
+
+{
+  "ID": 1,
+  "name": "USE .NET API properly",
+  "dueDate": "2025-12-31",
+  "isDone": false
+}
+
+
+###
+GET http://localhost:5246/todos/2
+###
+DELETE http://localhost:5246/todos/2
